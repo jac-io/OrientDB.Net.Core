@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.7.1" />
+    <PackageReference Include="Serilog.extensions.logging" Version="2.0.2" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OrientDB.Net.Core.ConnectionProtocols.Binary\OrientDB.Net.Core.ConnectionProtocols.Binary.csproj" />
+    <ProjectReference Include="..\..\src\OrientDB.Net.Core.Serializers.RecordCSVSerializer\OrientDB.Net.Core.Serializers.RecordCSVSerializer.csproj" />
+    <ProjectReference Include="..\..\src\OrientDB.Net.Core\OrientDB.Net.Core.csproj" />
+    <ProjectReference Include="..\OrientDB.Net.Core.DemoDB\OrientDB.Net.Core.DemoDB.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "OrientDB.Net.Core.Test.CLI": {
+      "commandName": "Project"
+    }
+  }
+}

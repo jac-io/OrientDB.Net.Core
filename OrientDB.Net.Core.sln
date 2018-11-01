@@ -21,6 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientDB.Net.Core.Serialize
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientDB.Net.Core.DemoDB", "test\OrientDB.Net.Core.DemoDB\OrientDB.Net.Core.DemoDB.csproj", "{DFAD5D97-EFD9-47AC-9B36-9E5C49D7FDE2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AF34CC4-FE66-4FAB-9043-4D03A4AE2554}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientDB.Net.Core.Test.CLI", "test\OrientDB.Net.Core.Test.CLI\OrientDB.Net.Core.Test.CLI.csproj", "{20C44D91-96C0-4F36-8BA2-315E4AE88205}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +62,10 @@ Global
 		{DFAD5D97-EFD9-47AC-9B36-9E5C49D7FDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFAD5D97-EFD9-47AC-9B36-9E5C49D7FDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFAD5D97-EFD9-47AC-9B36-9E5C49D7FDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C44D91-96C0-4F36-8BA2-315E4AE88205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C44D91-96C0-4F36-8BA2-315E4AE88205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C44D91-96C0-4F36-8BA2-315E4AE88205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C44D91-96C0-4F36-8BA2-315E4AE88205}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +78,7 @@ Global
 		{97D4F2E8-E260-4AA4-9AF9-D46368611D04} = {E25C2605-E26F-4EDC-8CDD-1D833B77B406}
 		{3F9F3E47-ED72-4FCA-AC8E-28763A22C447} = {415AE512-266A-4A6B-B83A-A7CDF9E5D877}
 		{DFAD5D97-EFD9-47AC-9B36-9E5C49D7FDE2} = {415AE512-266A-4A6B-B83A-A7CDF9E5D877}
+		{20C44D91-96C0-4F36-8BA2-315E4AE88205} = {415AE512-266A-4A6B-B83A-A7CDF9E5D877}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6213C1E2-9D2E-4806-8A6C-F849C9BD2F1B}
