@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientDB.Net.Core.Connectio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientDB.Net.Core.ConnectionProtocols.Binary.Tests", "test\OrientDB.Net.Core.ConnectionProtocols.Binary.Tests\OrientDB.Net.Core.ConnectionProtocols.Binary.Tests.csproj", "{D1DE664C-B79B-438B-A266-375A81DDE86E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrientDB.Net.Core.Serializers.RecordCSVSerializer", "src\OrientDB.Net.Core.Serializers.RecordCSVSerializer\OrientDB.Net.Core.Serializers.RecordCSVSerializer.csproj", "{97D4F2E8-E260-4AA4-9AF9-D46368611D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientDB.Net.Core.Serializers.RecordCSVSerilizer.Tests", "test\OrientDB.Net.Core.Serializers.RecordCSVSerilizer.Tests\OrientDB.Net.Core.Serializers.RecordCSVSerilizer.Tests.csproj", "{3F9F3E47-ED72-4FCA-AC8E-28763A22C447}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,14 @@ Global
 		{D1DE664C-B79B-438B-A266-375A81DDE86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1DE664C-B79B-438B-A266-375A81DDE86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1DE664C-B79B-438B-A266-375A81DDE86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D4F2E8-E260-4AA4-9AF9-D46368611D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D4F2E8-E260-4AA4-9AF9-D46368611D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D4F2E8-E260-4AA4-9AF9-D46368611D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D4F2E8-E260-4AA4-9AF9-D46368611D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9F3E47-ED72-4FCA-AC8E-28763A22C447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9F3E47-ED72-4FCA-AC8E-28763A22C447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9F3E47-ED72-4FCA-AC8E-28763A22C447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9F3E47-ED72-4FCA-AC8E-28763A22C447}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +58,8 @@ Global
 		{A15D454A-432D-4566-B8EA-D2852E728790} = {415AE512-266A-4A6B-B83A-A7CDF9E5D877}
 		{1BA0541F-C20E-492E-8020-51D11A0B971D} = {E25C2605-E26F-4EDC-8CDD-1D833B77B406}
 		{D1DE664C-B79B-438B-A266-375A81DDE86E} = {415AE512-266A-4A6B-B83A-A7CDF9E5D877}
+		{97D4F2E8-E260-4AA4-9AF9-D46368611D04} = {E25C2605-E26F-4EDC-8CDD-1D833B77B406}
+		{3F9F3E47-ED72-4FCA-AC8E-28763A22C447} = {415AE512-266A-4A6B-B83A-A7CDF9E5D877}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6213C1E2-9D2E-4806-8A6C-F849C9BD2F1B}
